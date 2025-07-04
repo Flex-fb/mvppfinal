@@ -37,6 +37,4 @@ async def main():
     await app_bot.updater.start_polling()
     await app_bot.updater.idle()
 
-if name == "__main__":
-    Thread(target=run_flask).start()
-    asyncio.run(main())
+if __name__ == "__main111__":
